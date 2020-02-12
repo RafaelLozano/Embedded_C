@@ -10,10 +10,10 @@ struct DataSet
 
 int main() {
     struct DataSet data;
-    data.data_1 = 0x11;
-    data.data_2 = 0xFFFFEEEE;
-    data.data_3 = 0x22;
-    data.data_4 = 0xABCD;
+    data.data_1 = 0x11;//char
+    data.data_2 = 0xFFFFEEEE;//int
+    data.data_3 = 0x22;//char
+    data.data_4 = 0xABCD;//short
 
     uint8_t *ptr = (uint8_t *) &data;
     uint32_t totalSize=sizeof(struct DataSet);
