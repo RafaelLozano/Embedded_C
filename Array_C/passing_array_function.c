@@ -8,7 +8,7 @@ int main() {
     uint8_t array[n];
     for (size_t i = 0; i < n; i++)
     {
-        array[i]=0xFF;
+        array[i]=i;
     }
     //Si no sabemos el tamaño del array se calcula
     n=sizeof(array)/sizeof(uint8_t);
